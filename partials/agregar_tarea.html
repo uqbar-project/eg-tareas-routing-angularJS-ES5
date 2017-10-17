@@ -1,4 +1,4 @@
-<div>
+<div ng-controller="AgregarTareaController as tareasCtrl">
   <h4>Agregar Tareas</h4>
 
   <form>
@@ -22,7 +22,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr data-ng-repeat="tarea in tareasCtrl.tareas">
+    <tr ng-repeat="tarea in tareasCtrl.tareas">
       <td>
         <a ui-sref="editarTarea({id: tarea.id})">{{tarea.id}}</a>
       </td>
