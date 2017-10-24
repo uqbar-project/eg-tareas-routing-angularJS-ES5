@@ -4,12 +4,12 @@
   "description": "Todo List con Routing",
   "scripts": {
     "prestart": "npm install",
-    "start": "http-server  -p 8000 -c-1",
+    "start": "http-server -p 8000 -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "svn",
-    "url": "https://xp-dev.com/svn/uqbar/examples/ui/web/angular/tareas-ui-routing/"
+    "type": "git",
+    "url": "git@github.com:uqbar-project/eg-tareas-routing-angular.git"
   },
   "keywords": [
     "angular",
